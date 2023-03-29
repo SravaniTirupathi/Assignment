@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assignment.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
+</head>
+
+<body>
+    <div>
+        <nav class="head-nav-bg">
+            <ul type="none" class="d-flex flex-row justify-content-center mb-0">
+                <li class="mr-4 mt-2 mb-2 head-list-item"><a>HOME</a></li>
+                <li class="mr-4 mt-2 mb-2 head-list-item"><a>STOCK MARKET COURSES</a></li>
+                <li class="mr-4 mt-2 mb-2 head-list-item"><a>SCREENS</a></li>
+                <li class="mr-4 mt-2 mb-2 head-selected-list-item" id="analyseTools"><a>ANALYSIS TOOLS</a></li>
+                <li class="mr-4 mt-2 mb-2 head-list-item"><a>TRADING TOOLS</a></li>
+                <li class="mr-4 mt-2 mb-2 head-list-item"><a>KNOWLEDGE BASE</a></li>
+                <li class="mt-2 mb-2 head-list-item"><a>JOB ORIENTED COURSES (PRARAMBH)</a></li>
+            </ul>
+        </nav>
+        <div class="hidden-text" id="analyse">
+            <div class="analysis-bg">
+                <div class="d-flex flex-row">
+                    <div>
+                        <ul type="none" class="sub-items">
+                            <li class="mt-3 mb-3">NIFTY OPTION CHAIN</li>
+                            <li class="mt-3 mb-3">NIFTY OI</li>
+                            <li class="mt-3 mb-3">BANK NIFTY OPTION CHAIN</li>
+                            <li class="mt-3 mb-3">BANKNIFTY OI</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul type="none" class="sub-items">
+                            <li class="mt-3 mb-3">FOREX COPY TRADING</li>
+                            <li class="mt-3 mb-3">LIVE OHLC</li>
+                            <li class="mt-3 mb-3">SECTOR WISE MARKET</li>
+                            <li class="mt-3 mb-3">ECONOMIC CALENDER</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul type="none" class="sub-items">
+                            <li class="mt-3 mb-3">FOREX HEAT MAP</li>
+                            <li class="mt-3 mb-3">FOREX MARKET SENTIMENT</li>
+                            <li class="mt-3 mb-3">FOREX TECHNICAL SIGNALS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3" id="searchid">
+            <img src="C:\Users\91951\Downloads\Webpages\logo.jpg" class="logo" alt="logo here" />
+            <span class="search-span-elem">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#481694" class="bi bi-search mr-2"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <span class="search">Search for investment , trading & analysis</span>
+            </span>
+            <a href="#" class="login">Log In / Sign up</a>
+        </div>
+        <div class="d-flex flex-row bottom-container">
+            <div>
+                <div>
+                    <p class="up-skills">Up Your <span class="text-success">Financial Skills</span></p>
+                    <h1 class="advance-heading">To <span class="text-success">Advance</span> Your
+                        <br /><span class="text-success">Career</span> Path
+                    </h1>
+                    <p class="learn-more-para">Learn Stock Market Trading from N.I.S.M & CFA Certified Financial
+                        experts.<br />Download Tradeg learning app today.</p>
+                    <div class="mb-4 mt-4">
+                        <button class="shadow bg-success get-started-button">Get Started</button>
+                        <button class="shadow free-trail-button">Free trail</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d69b11"
+                            class="bi bi-people-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                        </svg>
+                        <span class="icon-text">Interactive Sessions</span>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#db3e04"
+                            class="bi bi-briefcase" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        <span class="icon-text">Career-Oriented</span>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#56237d"
+                            class="bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path
+                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                        </svg>
+                        <span class="icon-text">Creative Thinking</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="C:\Users\91951\Downloads\Webpages\demo.jpg" class="image" alt="image-here" />
+            </div>
+        </div>
+    </div>
+    <script>
+        let analyseTools = document.getElementById("analyseTools");
+        let analyse = document.getElementById("analyse");
+        let search = document.getElementById("searchid");
+        analyseTools.addEventListener("mouseover", function () {
+            analyse.classList.remove("hidden-text");
+            search.classList.add("hidden-text")
+        });
+        analyseTools.addEventListener("mouseout", function () {
+            analyse.classList.add("hidden-text");
+            search.classList.remove("hidden-text")
+        });
+
+    </script>
+</body>
+
+</html>
